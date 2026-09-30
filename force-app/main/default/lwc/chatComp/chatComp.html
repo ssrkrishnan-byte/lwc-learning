@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-chat-bookend">
+<span class="slds-icon_container slds-icon-utility-chat slds-chat-icon">
+<svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+<use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chat"></use>
+</svg>
+</span>
+<p>Chat started by
+<b>Taylor Watson-Rice</b> • 4:59 PM</p>
+</div>
+<template for:each={messages} for:item="msg">
+    <li key={msg.id}>
+        <span>{msg.text}</span>
+    </li>
+</template>
+<p>Chat started by
+<b>Taylor Watson-Rice</b> • 4:59 PM</p>
+
+</template>
