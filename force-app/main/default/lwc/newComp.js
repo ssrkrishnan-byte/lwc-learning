@@ -58,7 +58,6 @@ numArray.forEach(arrowFuncVar);
 */
 
 
-const newArr = [10, 20, -30, 40, 50, -60];
+const newArr = [11, 20, 30, 40, 50, 60];
 
 //Every
-const everyMethodArr = newArr.every((currentElement, index, newArr) => currentElement > 10);
